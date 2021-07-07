@@ -4,7 +4,7 @@ This repo contains an example of a simple fork join process using lambda and ste
 
 ![flow](stepfunctions_graph.png?raw=true "Step function workflow")
 
-The controller will generate "work", where each "work" item is processed by a worker. The worker will output the processed result, then the collector will consume the result of each worker and product a final aggregated result.
+The controller will generate "work", where each "work" item is processed by a worker. The worker will output the processed result, then the collector will consume the result of each worker and produce a final aggregated result.
 
 ## Run the examples
 
